@@ -7,6 +7,7 @@ var group__vec__3d =
     ] ],
     [ "vec_3d", "de/d7b/group__vec__3d.html#gaf9ee870d4922e488bdd3e7262485c270", null ],
     [ "dot_prod", "de/d7b/group__vec__3d.html#ga243e74d542d0d4d14fa3ae0bc2170d84", null ],
+    [ "get_angle", "de/d7b/group__vec__3d.html#ga55be1d766c8a824b35d97e79744834d8", null ],
     [ "get_cross_matrix", "de/d7b/group__vec__3d.html#ga5082b0720c2cc51ae84bf19bd76dc849", null ],
     [ "print_vector", "de/d7b/group__vec__3d.html#ga4fd194972bea4884e0b33cf4a166d14e", null ],
     [ "unit_vec", "de/d7b/group__vec__3d.html#ga3cdfd8378a0b115563ea6c561bb46b7e", null ],

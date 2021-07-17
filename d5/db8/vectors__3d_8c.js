@@ -1,6 +1,7 @@
 var vectors__3d_8c =
 [
     [ "dot_prod", "de/d7b/group__vec__3d.html#ga243e74d542d0d4d14fa3ae0bc2170d84", null ],
+    [ "get_angle", "de/d7b/group__vec__3d.html#ga55be1d766c8a824b35d97e79744834d8", null ],
     [ "get_cross_matrix", "de/d7b/group__vec__3d.html#ga5082b0720c2cc51ae84bf19bd76dc849", null ],
     [ "main", "d5/db8/vectors__3d_8c.html#a840291bc02cba5474a4cb46a9b9566fe", null ],
     [ "print_vector", "de/d7b/group__vec__3d.html#ga4fd194972bea4884e0b33cf4a166d14e", null ],

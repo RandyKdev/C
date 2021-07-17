@@ -6,6 +6,7 @@ var annotated_dup =
     [ "adaline", "d2/daa/structadaline.html", "d2/daa/structadaline" ],
     [ "AVLnode", "d2/d71/struct_a_v_lnode.html", "d2/d71/struct_a_v_lnode" ],
     [ "BSTIterator", "d4/d02/struct_b_s_t_iterator.html", "d4/d02/struct_b_s_t_iterator" ],
+    [ "buffer", "dd/da2/structbuffer.html", "dd/da2/structbuffer" ],
     [ "CArray", "d4/d2d/struct_c_array.html", "d4/d2d/struct_c_array" ],
     [ "cluster", "d1/d99/structcluster.html", "d1/d99/structcluster" ],
     [ "data", "df/dea/structdata.html", "df/dea/structdata" ],

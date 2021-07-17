@@ -8,6 +8,7 @@ var files_dup =
     [ "games", "dir_4b6f782e158b0b98da980a0e11a23a15.html", "dir_4b6f782e158b0b98da980a0e11a23a15" ],
     [ "geometry", "dir_e3380d2178455503f266746fb14246a5.html", "dir_e3380d2178455503f266746fb14246a5" ],
     [ "graphics", "dir_e79632891301b850df87e9c0030293fa.html", "dir_e79632891301b850df87e9c0030293fa" ],
+    [ "greedy_approach", "dir_a4300992e825aa9b9238bf43160a241e.html", "dir_a4300992e825aa9b9238bf43160a241e" ],
     [ "hash", "dir_72aaf47615111200018c039a56ef48be.html", "dir_72aaf47615111200018c039a56ef48be" ],
     [ "machine_learning", "dir_3343723ae086de42ee4ca9774da3a13f.html", "dir_3343723ae086de42ee4ca9774da3a13f" ],
     [ "misc", "dir_a52f4d3d586a58b02f3a4ddf0a992157.html", "dir_a52f4d3d586a58b02f3a4ddf0a992157" ],

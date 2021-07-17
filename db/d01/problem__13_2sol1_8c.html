@@ -112,7 +112,7 @@ Include dependency graph for sol1.c:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac260f58785fb20eb09bb35385a7d47f8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d01/problem__13_2sol1_8c.html#ac260f58785fb20eb09bb35385a7d47f8">get_number</a> (FILE *fp, char *buffer, uint8_t *out_int)</td></tr>
+<tr class="memitem:ac260f58785fb20eb09bb35385a7d47f8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d01/problem__13_2sol1_8c.html#ac260f58785fb20eb09bb35385a7d47f8">get_number</a> (FILE *fp, char *<a class="el" href="../../dd/da2/structbuffer.html">buffer</a>, uint8_t *out_int)</td></tr>
 <tr class="memdesc:ac260f58785fb20eb09bb35385a7d47f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to read the number from a file and store it in array.  <a href="../../db/d01/problem__13_2sol1_8c.html#ac260f58785fb20eb09bb35385a7d47f8">More...</a><br /></td></tr>
 <tr class="separator:ac260f58785fb20eb09bb35385a7d47f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad51742ca5a5c99e860bdf30299163bf2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d01/problem__13_2sol1_8c.html#ad51742ca5a5c99e860bdf30299163bf2">add_numbers</a> (uint8_t *a, uint8_t *b, uint8_t N)</td></tr>
@@ -246,7 +246,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../..
  index 0 of output buffer =&gt; units place <br  />
  index 1 of output buffer =&gt; tens place and so on i.e., index i =&gt; 10^i th place </p>
 <div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordtype">long</span> l = fscanf(fp, <span class="stringliteral">&quot;%s\n&quot;</span>, buffer);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordtype">long</span> l = fscanf(fp, <span class="stringliteral">&quot;%s\n&quot;</span>, <a class="code" href="../../dd/da2/structbuffer.html">buffer</a>);</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">if</span> (!l)</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    {</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        perror(<span class="stringliteral">&quot;Error reading line.&quot;</span>);</div>
@@ -254,24 +254,25 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../..
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    }</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="comment">// printf(&quot;Number: %s\t length: %ld, %ld\n&quot;, buffer, strlen(buffer), l);</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">long</span> <a class="code" href="../../df/db3/struct_l.html">L</a> = strlen(buffer);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">long</span> <a class="code" href="../../df/db3/struct_l.html">L</a> = strlen(<a class="code" href="../../dd/da2/structbuffer.html">buffer</a>);</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="../../df/db3/struct_l.html">L</a>; i++)</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    {</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordflow">if</span> (buffer[i] &lt; 0x30 || buffer[i] &gt; 0x39)</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../dd/da2/structbuffer.html">buffer</a>[i] &lt; 0x30 || <a class="code" href="../../dd/da2/structbuffer.html">buffer</a>[i] &gt; 0x39)</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        {</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            perror(<span class="stringliteral">&quot;found inavlid character in the number!&quot;</span>);</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        }</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        {</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            out_int[<a class="code" href="../../df/db3/struct_l.html">L</a> - i - 1] = buffer[i] - 0x30;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            out_int[<a class="code" href="../../df/db3/struct_l.html">L</a> - i - 1] = <a class="code" href="../../dd/da2/structbuffer.html">buffer</a>[i] - 0x30;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        }</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
 <div class="ttc" id="astruct_l_html"><div class="ttname"><a href="../../df/db3/struct_l.html">L</a></div><div class="ttdef"><b>Definition:</b> list.h:8</div></div>
+<div class="ttc" id="astructbuffer_html"><div class="ttname"><a href="../../dd/da2/structbuffer.html">buffer</a></div><div class="ttdoc">struct used to store character in certain times</div><div class="ttdef"><b>Definition:</b> min_printf.h:31</div></div>
 </div><!-- fragment -->
 </div>
 </div>

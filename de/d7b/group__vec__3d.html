@@ -101,7 +101,7 @@ $(document).ready(function(){initNavTree('de/d7b/group__vec__3d.html','../../');
 <div class="dynheader">
 Collaboration diagram for 3D Vector operations:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d7b/group__vec__3d.svg" width="355" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d7b/group__vec__3d.svg" width="356" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -144,6 +144,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga5082b0720c2cc51ae84bf19bd76dc849"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d7a/group__matrix.html#ga9f844010cb96591fa94c9d533a500ab7">mat_3x3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d7b/group__vec__3d.html#ga5082b0720c2cc51ae84bf19bd76dc849">get_cross_matrix</a> (const <a class="el" href="../../de/d7b/group__vec__3d.html#gaf9ee870d4922e488bdd3e7262485c270">vec_3d</a> *a)</td></tr>
 <tr class="memdesc:ga5082b0720c2cc51ae84bf19bd76dc849"><td class="mdescLeft">&#160;</td><td class="mdescRight">The cross product of vectors can be represented as a matrix multiplication operation.  <a href="../../de/d7b/group__vec__3d.html#ga5082b0720c2cc51ae84bf19bd76dc849">More...</a><br /></td></tr>
 <tr class="separator:ga5082b0720c2cc51ae84bf19bd76dc849"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga55be1d766c8a824b35d97e79744834d8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d7b/group__vec__3d.html#ga55be1d766c8a824b35d97e79744834d8">get_angle</a> (const <a class="el" href="../../de/d7b/group__vec__3d.html#gaf9ee870d4922e488bdd3e7262485c270">vec_3d</a> *a, const <a class="el" href="../../de/d7b/group__vec__3d.html#gaf9ee870d4922e488bdd3e7262485c270">vec_3d</a> *b)</td></tr>
+<tr class="memdesc:ga55be1d766c8a824b35d97e79744834d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtain the angle between two given vectors.  <a href="../../de/d7b/group__vec__3d.html#ga55be1d766c8a824b35d97e79744834d8">More...</a><br /></td></tr>
+<tr class="separator:ga55be1d766c8a824b35d97e79744834d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
@@ -201,6 +204,72 @@ Functions</h2></td></tr>
 <div class="ttc" id="astructvec__3d___html_a53462a5a195c9e16fb584f73fd66c3d0"><div class="ttname"><a href="../../d5/db4/structvec__3d__.html#a53462a5a195c9e16fb584f73fd66c3d0">vec_3d_::x</a></div><div class="ttdeci">float x</div><div class="ttdoc">X co-ordinate.</div><div class="ttdef"><b>Definition:</b> geometry_datatypes.h:23</div></div>
 <div class="ttc" id="astructvec__3d___html_a76098d39a382838df3b4b48c3443413b"><div class="ttname"><a href="../../d5/db4/structvec__3d__.html#a76098d39a382838df3b4b48c3443413b">vec_3d_::y</a></div><div class="ttdeci">float y</div><div class="ttdoc">Y co-ordinate.</div><div class="ttdef"><b>Definition:</b> geometry_datatypes.h:24</div></div>
 </div><!-- fragment -->
+</div>
+</div>
+<a id="ga55be1d766c8a824b35d97e79744834d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga55be1d766c8a824b35d97e79744834d8">&#9670;&nbsp;</a></span>get_angle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double get_angle </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../de/d7b/group__vec__3d.html#gaf9ee870d4922e488bdd3e7262485c270">vec_3d</a> *&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../de/d7b/group__vec__3d.html#gaf9ee870d4922e488bdd3e7262485c270">vec_3d</a> *&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Obtain the angle between two given vectors. </p>
+<p class="formulaDsp">
+\[\alpha=acos\left(\frac{\vec{a} \cdot \vec{b}}{\lVert\vec{a}\rVert \cdot \lVert\vec{b}\rVert}\right)\]
+</p>
+ <dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>first input vector </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">b</td><td>second input vector </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>angle between \(\vec{a}\) and \(\vec{b}\) in radians </dd></dl>
+<p>&lt; The norm of vector a</p>
+<p>&lt; The norm of vector b</p>
+<p>detect possible division by 0 - the angle is not defined in this case</p>
+<div class="fragment"><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;{</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    <span class="keywordtype">double</span> alpha, cos_alpha;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="keywordtype">float</span> norm_a = <a class="code" href="../../de/d7b/group__vec__3d.html#ga94805165d037d111d7d7c0df99e3a5de">vector_norm</a>(a); <span class="comment">///&lt; The norm of vector a</span></div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="keywordtype">float</span> norm_b = <a class="code" href="../../de/d7b/group__vec__3d.html#ga94805165d037d111d7d7c0df99e3a5de">vector_norm</a>(b); <span class="comment">///&lt; The norm of vector b</span></div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    <span class="keywordflow">if</span> (fabsf(norm_a) &lt; <a class="code" href="../../de/d5a/group__quaternions.html#ga002b2f4894492820fe708b1b7e7c5e70">EPSILON</a> || fabsf(norm_b) &lt; <a class="code" href="../../de/d5a/group__quaternions.html#ga002b2f4894492820fe708b1b7e7c5e70">EPSILON</a>) <span class="comment">/// detect possible division by 0 - the angle is not defined in this case</span></div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    {  </div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        <span class="keywordflow">return</span> NAN; </div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    }</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160; </div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    cos_alpha = <a class="code" href="../../de/d7b/group__vec__3d.html#ga243e74d542d0d4d14fa3ae0bc2170d84">dot_prod</a>(a, b) / (norm_a * norm_b);</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    alpha = acos(cos_alpha); <span class="comment">// delivers the radian</span></div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <span class="keywordflow">return</span> alpha; <span class="comment">// in range from -1 to 1</span></div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;}</div>
+<div class="ttc" id="agroup__quaternions_html_ga002b2f4894492820fe708b1b7e7c5e70"><div class="ttname"><a href="../../de/d5a/group__quaternions.html#ga002b2f4894492820fe708b1b7e7c5e70">EPSILON</a></div><div class="ttdeci">#define EPSILON</div><div class="ttdoc">Minimum recognizable value.</div><div class="ttdef"><b>Definition:</b> geometry_datatypes.h:14</div></div>
+<div class="ttc" id="agroup__vec__3d_html_ga243e74d542d0d4d14fa3ae0bc2170d84"><div class="ttname"><a href="../../de/d7b/group__vec__3d.html#ga243e74d542d0d4d14fa3ae0bc2170d84">dot_prod</a></div><div class="ttdeci">float dot_prod(const vec_3d *a, const vec_3d *b)</div><div class="ttdoc">Obtain the dot product of two 3D vectors.</div><div class="ttdef"><b>Definition:</b> vectors_3d.c:76</div></div>
+<div class="ttc" id="agroup__vec__3d_html_ga94805165d037d111d7d7c0df99e3a5de"><div class="ttname"><a href="../../de/d7b/group__vec__3d.html#ga94805165d037d111d7d7c0df99e3a5de">vector_norm</a></div><div class="ttdeci">float vector_norm(const vec_3d *a)</div><div class="ttdoc">Compute the norm a vector.</div><div class="ttdef"><b>Definition:</b> vectors_3d.c:138</div></div>
+</div><!-- fragment --><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d7b/group__vec__3d_ga55be1d766c8a824b35d97e79744834d8_cgraph.svg" width="358" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
 </div>
 </div>
 <a id="ga5082b0720c2cc51ae84bf19bd76dc849"></a>
@@ -328,13 +397,11 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    }</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <span class="keywordflow">return</span> n;</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;}</div>
-<div class="ttc" id="agroup__quaternions_html_ga002b2f4894492820fe708b1b7e7c5e70"><div class="ttname"><a href="../../de/d5a/group__quaternions.html#ga002b2f4894492820fe708b1b7e7c5e70">EPSILON</a></div><div class="ttdeci">#define EPSILON</div><div class="ttdoc">Minimum recognizable value.</div><div class="ttdef"><b>Definition:</b> geometry_datatypes.h:14</div></div>
-<div class="ttc" id="agroup__vec__3d_html_ga94805165d037d111d7d7c0df99e3a5de"><div class="ttname"><a href="../../de/d7b/group__vec__3d.html#ga94805165d037d111d7d7c0df99e3a5de">vector_norm</a></div><div class="ttdeci">float vector_norm(const vec_3d *a)</div><div class="ttdoc">Compute the norm a vector.</div><div class="ttdef"><b>Definition:</b> vectors_3d.c:138</div></div>
 <div class="ttc" id="astructvec__3d___html"><div class="ttname"><a href="../../d5/db4/structvec__3d__.html">vec_3d_</a></div><div class="ttdoc">3D vector type</div><div class="ttdef"><b>Definition:</b> geometry_datatypes.h:22</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d7b/group__vec__3d_ga3cdfd8378a0b115563ea6c561bb46b7e_cgraph.svg" width="344" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d7b/group__vec__3d_ga3cdfd8378a0b115563ea6c561bb46b7e_cgraph.svg" width="350" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -430,11 +497,10 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160; </div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    <span class="keywordflow">return</span> n;</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;}</div>
-<div class="ttc" id="agroup__vec__3d_html_ga243e74d542d0d4d14fa3ae0bc2170d84"><div class="ttname"><a href="../../de/d7b/group__vec__3d.html#ga243e74d542d0d4d14fa3ae0bc2170d84">dot_prod</a></div><div class="ttdeci">float dot_prod(const vec_3d *a, const vec_3d *b)</div><div class="ttdoc">Obtain the dot product of two 3D vectors.</div><div class="ttdef"><b>Definition:</b> vectors_3d.c:76</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d7b/group__vec__3d_ga94805165d037d111d7d7c0df99e3a5de_cgraph.svg" width="226" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d7b/group__vec__3d_ga94805165d037d111d7d7c0df99e3a5de_cgraph.svg" width="230" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
