@@ -12,7 +12,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="Reserves memory capable of storing a node and returns the address.">
+<g id="a_node1"><a xlink:title="Reserves memory for new node and returns pointer to node.">
 <polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-19.5 126,-19.5 126,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="63" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">allocateMemoryForNode</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#a5157a5b4e164f934602fa78413504029" target="_top" xlink:title="ending the program due to an error">
+<g id="a_node2"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#a5157a5b4e164f934602fa78413504029" target="_top" xlink:title="Ends program due to an error.">
 <polygon fill="white" stroke="black" points="162,-0.5 162,-19.5 270,-19.5 270,-0.5 162,-0.5"/>
 <text text-anchor="middle" x="216" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">endProgramAbruptly</text>
 </a>

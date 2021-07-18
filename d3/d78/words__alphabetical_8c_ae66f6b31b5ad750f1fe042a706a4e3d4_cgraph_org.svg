@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#af1f9b6eb320d872ba0766dc8bd070075" target="_top" xlink:title="closes a file when the read or write process is done">
+<g id="a_node2"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#af1f9b6eb320d872ba0766dc8bd070075" target="_top" xlink:title="Closes file after read or write.">
 <polygon fill="white" stroke="black" points="256,-152.5 256,-171.5 312,-171.5 312,-152.5 256,-152.5"/>
 <text text-anchor="middle" x="284" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">closeFile</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#a5157a5b4e164f934602fa78413504029" target="_top" xlink:title="ending the program due to an error">
+<g id="a_node3"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#a5157a5b4e164f934602fa78413504029" target="_top" xlink:title="Ends program due to an error.">
 <polygon fill="white" stroke="black" points="526,-95.5 526,-114.5 634,-114.5 634,-95.5 526,-95.5"/>
 <text text-anchor="middle" x="580" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">endProgramAbruptly</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#a840902ada0e956eb01b529be178748cc" target="_top" xlink:title="freeing memory when the program is terminating">
+<g id="a_node4"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#a840902ada0e956eb01b529be178748cc" target="_top" xlink:title="Frees memory when program is terminating.">
 <polygon fill="white" stroke="black" points="94,-76.5 94,-95.5 184,-95.5 184,-76.5 94,-76.5"/>
 <text text-anchor="middle" x="139" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">freeTreeMemory</text>
 </a>
@@ -66,7 +66,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#a151b2c78ae821d0495faf936a1c2530f" target="_top" xlink:title="Read words from file to binary tree.">
+<g id="a_node5"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#a151b2c78ae821d0495faf936a1c2530f" target="_top" xlink:title="Reads words from file to tree and returns pointer to root node.">
 <polygon fill="white" stroke="black" points="79,-38.5 79,-57.5 199,-57.5 199,-38.5 79,-38.5"/>
 <text text-anchor="middle" x="139" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">readWordsInFileToTree</text>
 </a>
@@ -81,7 +81,7 @@
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#a22516c70583c9fa78e4edffb063836cc" target="_top" xlink:title="Writes contents of the tree to another file alphabetically.">
+<g id="a_node9"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#a22516c70583c9fa78e4edffb063836cc" target="_top" xlink:title="Writes contents of tree to another file alphabetically.">
 <polygon fill="white" stroke="black" points="74,-0.5 74,-19.5 204,-19.5 204,-0.5 74,-0.5"/>
 <text text-anchor="middle" x="139" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">writeContentOfTreeToFile</text>
 </a>
@@ -102,7 +102,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#a0ac11529daf94e98f7114a6e938679a9" target="_top" xlink:title="Adding words in to the correct position in the tree.">
+<g id="a_node6"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#a0ac11529daf94e98f7114a6e938679a9" target="_top" xlink:title="Adds word (node) to the correct position in tree and returns pointer to root node.">
 <polygon fill="white" stroke="black" points="240,-38.5 240,-57.5 328,-57.5 328,-38.5 240,-38.5"/>
 <text text-anchor="middle" x="284" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">addWordToTree</text>
 </a>
@@ -117,7 +117,7 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#a1e5ad8401396df36ab585d79f3309fd9" target="_top" xlink:title="Reserves memory capable of storing a node and returns the address.">
+<g id="a_node7"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#a1e5ad8401396df36ab585d79f3309fd9" target="_top" xlink:title="Reserves memory for new node and returns pointer to node.">
 <polygon fill="white" stroke="black" points="364,-76.5 364,-95.5 490,-95.5 490,-76.5 364,-76.5"/>
 <text text-anchor="middle" x="427" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">allocateMemoryForNode</text>
 </a>
@@ -132,7 +132,7 @@
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#a9e3cab68cf6557024f0073f674a307a1" target="_top" xlink:title="Stores a word and returns address to memory.">
+<g id="a_node8"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#a9e3cab68cf6557024f0073f674a307a1" target="_top" xlink:title="Stores a word in memory and returns pointer to word.">
 <polygon fill="white" stroke="black" points="379,-38.5 379,-57.5 475,-57.5 475,-38.5 379,-38.5"/>
 <text text-anchor="middle" x="427" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">getPointerToWord</text>
 </a>
