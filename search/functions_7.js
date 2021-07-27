@@ -18,6 +18,6 @@ var searchData=
   ['get_5frand_684',['get_rand',['../d6/d2e/cartesian__to__polar_8c.html#a60e62b809ca9dcb1b20a140b30d30f60',1,'cartesian_to_polar.c']]],
   ['get_5fwidth_5fand_5fprecision_685',['get_width_and_precision',['../d9/deb/min__printf_8h.html#ab64f8ffba5ed20f3d6cff88e26a79aba',1,'min_printf.h']]],
   ['getmax_686',['getMax',['../da/d02/binary__search__tree_8c.html#ad297e528a7bb8604ca93af149d609150',1,'binary_search_tree.c']]],
-  ['getpointertoword_687',['getPointerToWord',['../d3/d78/words__alphabetical_8c.html#a9e3cab68cf6557024f0073f674a307a1',1,'words_alphabetical.c']]],
+  ['getpointertoword_687',['getPointerToWord',['../d3/d78/words__alphabetical_8c.html#a90d7a9c7044b050a3973f681ee6b8e55',1,'words_alphabetical.c']]],
   ['getprecedence_688',['getPrecedence',['../db/d0c/infix__to__postfix_8c.html#ac91f38ad7885fca93e39325361a5c787',1,'infix_to_postfix.c']]]
 ];

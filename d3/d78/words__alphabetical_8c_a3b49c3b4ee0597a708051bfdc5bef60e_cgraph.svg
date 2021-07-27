@@ -12,7 +12,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="Adds word (node) to the correct position in tree and returns pointer to root node.">
+<g id="a_node1"><a xlink:title="Adds word (node) to the correct position in tree.">
 <polygon fill="#bfbfbf" stroke="black" points="0,-19.5 0,-38.5 88,-38.5 88,-19.5 0,-19.5"/>
 <text text-anchor="middle" x="44" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">addWordToTree</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#a1e5ad8401396df36ab585d79f3309fd9" target="_top" xlink:title="Reserves memory for new node and returns pointer to node.">
+<g id="a_node2"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#a6e8b3fc7d90cc2fff6632538628663ef" target="_top" xlink:title="Reserves memory for new node.">
 <polygon fill="white" stroke="black" points="124,-38.5 124,-57.5 250,-57.5 250,-38.5 124,-38.5"/>
 <text text-anchor="middle" x="187" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">allocateMemoryForNode</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#a9e3cab68cf6557024f0073f674a307a1" target="_top" xlink:title="Stores a word in memory and returns pointer to word.">
+<g id="a_node4"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#a90d7a9c7044b050a3973f681ee6b8e55" target="_top" xlink:title="Stores word in memory.">
 <polygon fill="white" stroke="black" points="139,-0.5 139,-19.5 235,-19.5 235,-0.5 139,-0.5"/>
 <text text-anchor="middle" x="187" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">getPointerToWord</text>
 </a>

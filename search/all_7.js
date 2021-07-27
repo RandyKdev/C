@@ -13,7 +13,7 @@ var searchData=
   ['free_5fmemory_137',['free_memory',['../dc/d80/cantor__set_8c.html#a85df3c64a683100ac6246e1e034df43d',1,'cantor_set.c']]],
   ['free_5fpoly_138',['free_poly',['../d0/dcb/poly__add_8c.html#a5a103fff33166d6e4d975b8b63c6e895',1,'poly_add.c']]],
   ['freetreememory_139',['freeTreeMemory',['../d3/d78/words__alphabetical_8c.html#a840902ada0e956eb01b529be178748cc',1,'words_alphabetical.c']]],
-  ['frequency_140',['frequency',['../db/d8b/struct_node.html#a1c18aecc8adc4878591a8de9b1383b80',1,'Node']]],
+  ['frequency_140',['frequency',['../db/d8b/struct_node.html#abe1c200da58f5276c6fd74f640a29a02',1,'Node']]],
   ['func_141',['func',['../dd/d93/client_8c.html#ac17020a38607ab29ce18939d5194a32a',1,'func(int sockfd):&#160;client.c'],['../d1/d20/server_8c.html#ac17020a38607ab29ce18939d5194a32a',1,'func(int sockfd):&#160;server.c'],['../dd/d08/newton__raphson__root_8c.html#a72f87d423a488946b319627a454d3925',1,'func(double complex x):&#160;newton_raphson_root.c']]],
   ['functionname_142',['functionName',['../d4/d73/struct_m_e_m_o_r_y___i_n_f_o_r_m_a_t_i_o_n.html#a1f13725b3de5ca6ab99b238b712cb417',1,'MEMORY_INFORMATION']]]
 ];

@@ -12,7 +12,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="Reads words from file to tree and returns pointer to root node.">
+<g id="a_node1"><a xlink:title="Reads words from file to tree.">
 <polygon fill="#bfbfbf" stroke="black" points="0,-19.5 0,-38.5 120,-38.5 120,-19.5 0,-19.5"/>
 <text text-anchor="middle" x="60" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">readWordsInFileToTree</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#a0ac11529daf94e98f7114a6e938679a9" target="_top" xlink:title="Adds word (node) to the correct position in tree and returns pointer to root node.">
+<g id="a_node2"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#a3b49c3b4ee0597a708051bfdc5bef60e" target="_top" xlink:title="Adds word (node) to the correct position in tree.">
 <polygon fill="white" stroke="black" points="156,-19.5 156,-38.5 244,-38.5 244,-19.5 156,-19.5"/>
 <text text-anchor="middle" x="200" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">addWordToTree</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#a1e5ad8401396df36ab585d79f3309fd9" target="_top" xlink:title="Reserves memory for new node and returns pointer to node.">
+<g id="a_node3"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#a6e8b3fc7d90cc2fff6632538628663ef" target="_top" xlink:title="Reserves memory for new node.">
 <polygon fill="white" stroke="black" points="280,-38.5 280,-57.5 406,-57.5 406,-38.5 280,-38.5"/>
 <text text-anchor="middle" x="343" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">allocateMemoryForNode</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#a9e3cab68cf6557024f0073f674a307a1" target="_top" xlink:title="Stores a word in memory and returns pointer to word.">
+<g id="a_node5"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#a90d7a9c7044b050a3973f681ee6b8e55" target="_top" xlink:title="Stores word in memory.">
 <polygon fill="white" stroke="black" points="295,-0.5 295,-19.5 391,-19.5 391,-0.5 295,-0.5"/>
 <text text-anchor="middle" x="343" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">getPointerToWord</text>
 </a>
