@@ -299,7 +299,7 @@ Here is the call graph for this function:</div>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 <div class="fragment"><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;{</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordflow">if</span> (fclose(file))</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <a class="code" href="../../d3/d78/words__alphabetical_8c.html#a5157a5b4e164f934602fa78413504029">endProgramAbruptly</a>(<span class="stringliteral">&quot; \n A Problem Occurred while closing a file \n&quot;</span>);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <a class="code" href="../../d3/d78/words__alphabetical_8c.html#a5157a5b4e164f934602fa78413504029">endProgramAbruptly</a>(<span class="stringliteral">&quot;\n A Problem Occurred while closing a file\n&quot;</span>);</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -646,7 +646,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    int16_t inputChar;  <span class="comment">// holds the current character in `wordcount.txt`</span></div>
 <div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    uint64_t i = 0;         <span class="comment">// holds the current index in `correctString`</span></div>
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160; </div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    <span class="comment">// Checks if the content in &#39;wordcount.txt&#39; is as expected (thesame as in</span></div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    <span class="comment">// Checks if the content in `wordcount.txt` is as expected (the same as in</span></div>
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <span class="comment">// correctString)</span></div>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    <span class="keywordflow">while</span> ((inputChar = fgetc(file)) != EOF)</div>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        assert(inputChar == correctString[i++]);</div>
