@@ -127,8 +127,8 @@ var NAVTREEINDEX0 =
 "d1/dc2/ode__midpoint__euler_8c.html#a9ceb646336224ee890a269d0b4600d09":[15,0,12,4,0],
 "d1/dc2/ode__midpoint__euler_8c.html#affe6cc2ab040b94a29e6c41782f72d51":[15,0,12,4,4],
 "d1/ded/group__misc.html":[13,3],
-"d1/ded/group__misc.html#ga6f8e8c9d25b5891d57e588d80d75028a":[15,0,11,8,0],
 "d1/ded/group__misc.html#ga6f8e8c9d25b5891d57e588d80d75028a":[13,3,0],
+"d1/ded/group__misc.html#ga6f8e8c9d25b5891d57e588d80d75028a":[15,0,11,8,0],
 "d1/ded/group__misc.html#gaa8dca7b867074164d5f45b0f3851269d":[15,0,11,8,3],
 "d1/ded/group__misc.html#gaa8dca7b867074164d5f45b0f3851269d":[13,3,3],
 "d1/ded/group__misc.html#gac0f2228420376f4db7e1274f2b41667c":[15,0,11,8,1],
@@ -212,12 +212,13 @@ var NAVTREEINDEX0 =
 "d3/d5a/struct__large__num.html#afaf353a072cf050ac86ac6e39868bcc9":[14,0,2,0],
 "d3/d78/words__alphabetical_8c.html":[15,0,2,1,3],
 "d3/d78/words__alphabetical_8c.html#a21df701de6ad940f6129b5b160e3e639":[15,0,2,1,3,8],
-"d3/d78/words__alphabetical_8c.html#a22516c70583c9fa78e4edffb063836cc":[15,0,2,1,3,9],
+"d3/d78/words__alphabetical_8c.html#a22516c70583c9fa78e4edffb063836cc":[15,0,2,1,3,10],
 "d3/d78/words__alphabetical_8c.html#a3b49c3b4ee0597a708051bfdc5bef60e":[15,0,2,1,3,1],
 "d3/d78/words__alphabetical_8c.html#a5157a5b4e164f934602fa78413504029":[15,0,2,1,3,4],
 "d3/d78/words__alphabetical_8c.html#a6e8b3fc7d90cc2fff6632538628663ef":[15,0,2,1,3,2],
 "d3/d78/words__alphabetical_8c.html#a840902ada0e956eb01b529be178748cc":[15,0,2,1,3,5],
 "d3/d78/words__alphabetical_8c.html#a90d7a9c7044b050a3973f681ee6b8e55":[15,0,2,1,3,6],
+"d3/d78/words__alphabetical_8c.html#aa8dca7b867074164d5f45b0f3851269d":[15,0,2,1,3,9],
 "d3/d78/words__alphabetical_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[15,0,2,1,3,7],
 "d3/d78/words__alphabetical_8c.html#af1f9b6eb320d872ba0766dc8bd070075":[15,0,2,1,3,3],
 "d4/d02/struct_b_s_t_iterator.html":[14,0,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "d4/d68/qr__decompose_8h.html#a82b20e027437df768d7e994cf4cae29f":[15,0,12,6,4],
 "d4/d68/qr__decompose_8h.html#a90562ce8c3707401e9c5809dece68d6a":[15,0,12,6,0],
 "d4/d68/qr__decompose_8h.html#abeec1f78a7a7e7251687e75340331212":[15,0,12,6,3],
-"d4/d68/qr__decompose_8h_source.html":[15,0,12,6],
-"d4/d69/group__dual__quats.html":[13,0,8]
+"d4/d68/qr__decompose_8h_source.html":[15,0,12,6]
 };

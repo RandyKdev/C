@@ -1,11 +1,12 @@
 <map id="main" name="main">
-<area shape="rect" id="node1" title="Main function." alt="" coords="5,107,56,133"/>
-<area shape="rect" id="node2" href="$d3/d78/words__alphabetical_8c.html#af1f9b6eb320d872ba0766dc8bd070075" title="Closes file after read or write." alt="" coords="347,5,421,32"/>
-<area shape="rect" id="node3" href="$d3/d78/words__alphabetical_8c.html#a5157a5b4e164f934602fa78413504029" title="Ends program due to an error." alt="" coords="707,81,851,108"/>
-<area shape="rect" id="node4" href="$d3/d78/words__alphabetical_8c.html#a840902ada0e956eb01b529be178748cc" title="Frees memory when program is terminating." alt="" coords="131,107,251,133"/>
-<area shape="rect" id="node5" href="$d3/d78/words__alphabetical_8c.html#a21df701de6ad940f6129b5b160e3e639" title="Reads words from file to tree." alt="" coords="111,157,271,184"/>
-<area shape="rect" id="node9" href="$d3/d78/words__alphabetical_8c.html#a22516c70583c9fa78e4edffb063836cc" title="Writes contents of tree to another file alphabetically." alt="" coords="104,208,277,235"/>
-<area shape="rect" id="node6" href="$d3/d78/words__alphabetical_8c.html#a3b49c3b4ee0597a708051bfdc5bef60e" title="Adds word (node) to the correct position in tree." alt="" coords="325,157,443,184"/>
-<area shape="rect" id="node7" href="$d3/d78/words__alphabetical_8c.html#a6e8b3fc7d90cc2fff6632538628663ef" title="Reserves memory for new node." alt="" coords="491,107,659,133"/>
-<area shape="rect" id="node8" href="$d3/d78/words__alphabetical_8c.html#a90d7a9c7044b050a3973f681ee6b8e55" title="Stores word in memory." alt="" coords="511,157,639,184"/>
+<area shape="rect" id="node1" title="Main function." alt="" coords="5,81,56,108"/>
+<area shape="rect" id="node2" href="$d3/d78/words__alphabetical_8c.html#aa8dca7b867074164d5f45b0f3851269d" title="Self&#45;test implementations." alt="" coords="104,81,148,108"/>
+<area shape="rect" id="node3" href="$d3/d78/words__alphabetical_8c.html#af1f9b6eb320d872ba0766dc8bd070075" title="Closes file after read or write." alt="" coords="439,5,513,32"/>
+<area shape="rect" id="node5" href="$d3/d78/words__alphabetical_8c.html#a840902ada0e956eb01b529be178748cc" title="Frees memory when program is terminating." alt="" coords="223,56,343,83"/>
+<area shape="rect" id="node6" href="$d3/d78/words__alphabetical_8c.html#a21df701de6ad940f6129b5b160e3e639" title="Reads words from file to tree." alt="" coords="203,107,363,133"/>
+<area shape="rect" id="node10" href="$d3/d78/words__alphabetical_8c.html#a22516c70583c9fa78e4edffb063836cc" title="Writes contents of tree to another file alphabetically." alt="" coords="196,157,369,184"/>
+<area shape="rect" id="node4" href="$d3/d78/words__alphabetical_8c.html#a5157a5b4e164f934602fa78413504029" title="Ends program due to an error." alt="" coords="799,56,943,83"/>
+<area shape="rect" id="node7" href="$d3/d78/words__alphabetical_8c.html#a3b49c3b4ee0597a708051bfdc5bef60e" title="Adds word (node) to the correct position in tree." alt="" coords="417,107,535,133"/>
+<area shape="rect" id="node8" href="$d3/d78/words__alphabetical_8c.html#a6e8b3fc7d90cc2fff6632538628663ef" title="Reserves memory for new node." alt="" coords="583,56,751,83"/>
+<area shape="rect" id="node9" href="$d3/d78/words__alphabetical_8c.html#a90d7a9c7044b050a3973f681ee6b8e55" title="Stores word in memory." alt="" coords="603,107,731,133"/>
 </map>

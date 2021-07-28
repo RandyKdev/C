@@ -9,5 +9,6 @@ var words__alphabetical_8c =
     [ "getPointerToWord", "d3/d78/words__alphabetical_8c.html#a90d7a9c7044b050a3973f681ee6b8e55", null ],
     [ "main", "d3/d78/words__alphabetical_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4", null ],
     [ "readWordsInFileToTree", "d3/d78/words__alphabetical_8c.html#a21df701de6ad940f6129b5b160e3e639", null ],
+    [ "test", "d3/d78/words__alphabetical_8c.html#aa8dca7b867074164d5f45b0f3851269d", null ],
     [ "writeContentOfTreeToFile", "d3/d78/words__alphabetical_8c.html#a22516c70583c9fa78e4edffb063836cc", null ]
 ];
