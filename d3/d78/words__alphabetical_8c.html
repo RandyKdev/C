@@ -298,7 +298,7 @@ Here is the call graph for this function:</div>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 <div class="fragment"><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;{</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordflow">if</span> (fclose(file))</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <a class="code" href="../../d3/d78/words__alphabetical_8c.html#a5157a5b4e164f934602fa78413504029">endProgramAbruptly</a>(<span class="stringliteral">&quot; \n A Problem Occurred while closing a file\n&quot;</span>);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <a class="code" href="../../d3/d78/words__alphabetical_8c.html#a5157a5b4e164f934602fa78413504029">endProgramAbruptly</a>(<span class="stringliteral">&quot; \n A Problem Occurred while closing a file \n&quot;</span>);</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -418,7 +418,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">return</span> string;</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <a class="code" href="../../d3/d78/words__alphabetical_8c.html#a5157a5b4e164f934602fa78413504029">endProgramAbruptly</a>(</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="stringliteral">&quot;\n A problem occurred while reserving memory for word \n&quot;</span>);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="stringliteral">&quot;\n A problem occurred while reserving memory for the word\n&quot;</span>);</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordflow">return</span> NULL;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
@@ -645,13 +645,13 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    int16_t inputChar;  <span class="comment">// holds the current character in `wordcount.txt`</span></div>
 <div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    uint64_t i = 0;         <span class="comment">// holds the current index in `correctString`</span></div>
 <div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160; </div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    <span class="comment">// Checks if the content in &#39;wordcount.txt&#39; is as expected (thesame as in</span></div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    <span class="comment">// Checks if the content in `wordcount.txt` is as expected (the same as in</span></div>
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    <span class="comment">// correctString)</span></div>
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <span class="keywordflow">while</span> ((inputChar = fgetc(file)) != EOF)</div>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;        assert(inputChar == correctString[i++]);</div>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160; </div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    <a class="code" href="../../d3/d78/words__alphabetical_8c.html#af1f9b6eb320d872ba0766dc8bd070075">closeFile</a>(file);          <span class="comment">// closes &#39;wordcount.txt&#39;</span></div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    remove(<span class="stringliteral">&quot;wordcount.txt&quot;</span>);  <span class="comment">// deletes &#39;wordcount.txt&#39;</span></div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    <a class="code" href="../../d3/d78/words__alphabetical_8c.html#af1f9b6eb320d872ba0766dc8bd070075">closeFile</a>(file);          <span class="comment">// closes `wordcount.txt`</span></div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    remove(<span class="stringliteral">&quot;wordcount.txt&quot;</span>);  <span class="comment">// deletes `wordcount.txt`</span></div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160; </div>
 <div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    <a class="code" href="../../d3/d78/words__alphabetical_8c.html#a840902ada0e956eb01b529be178748cc">freeTreeMemory</a>(root);  <span class="comment">// frees memory taken up by tree</span></div>
 <div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;}</div>
