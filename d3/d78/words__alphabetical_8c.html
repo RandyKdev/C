@@ -417,9 +417,9 @@ Here is the call graph for this function:</div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>a pointer to the newly allocated word if the word is stored successfully </dd>
+<dl class="section return"><dt>Returns</dt><dd>a pointer to the newly allocated word if the word IS stored successfully </dd>
 <dd>
-<code>NULL</code> if the word is not stored </dd></dl>
+<code>NULL</code> if the word is NOT stored </dd></dl>
 <p>&lt; pointer to string</p>
 <div class="fragment"><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;{</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordtype">char</span> *<span class="keywordtype">string</span> =</div>
@@ -642,7 +642,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    <a class="code" href="../../d3/d78/words__alphabetical_8c.html#a22516c70583c9fa78e4edffb063836cc">writeContentOfTreeToFile</a>(</div>
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;        root, file);  <span class="comment">// writes content of tree to file (`wordcount.txt`)</span></div>
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160; </div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <span class="comment">// Here is how the output to &#39;wordcount.txt&#39; should look like</span></div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <span class="comment">// Here is how the output to `wordcount.txt` should look like</span></div>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    <span class="keywordtype">char</span> *correctString =</div>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        <span class="stringliteral">&quot;S/N     FREQUENCY   WORD \n&quot;</span></div>
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        <span class="stringliteral">&quot;1       2           a \n&quot;</span></div>
