@@ -595,9 +595,11 @@ Here is the call graph for this function:</div>
 
 <p>Self-test implementations. </p>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<p>&lt; pointer to root node</p>
+<p>&lt; pointer to file</p>
 <div class="fragment"><div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;{</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../db/d8b/struct_node.html">Node</a> *root = NULL;  <span class="comment">// pointer to root node</span></div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    FILE *file = NULL;         <span class="comment">// pointer to file</span></div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../db/d8b/struct_node.html">Node</a> *root = NULL;  <span class="comment">///&lt; pointer to root node</span></div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    FILE *file = NULL;         <span class="comment">///&lt; pointer to file</span></div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160; </div>
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    file = fopen(<span class="stringliteral">&quot;file.txt&quot;</span>, <span class="stringliteral">&quot;w&quot;</span>);  <span class="comment">// creates test file in write mode</span></div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160; </div>
