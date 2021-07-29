@@ -1,7 +1,7 @@
 <map id="main" name="main">
 <area shape="rect" id="node1" title="Main function." alt="" coords="5,81,56,108"/>
 <area shape="rect" id="node2" href="$d3/d78/words__alphabetical_8c.html#aa8dca7b867074164d5f45b0f3851269d" title="Self&#45;test implementations." alt="" coords="104,81,148,108"/>
-<area shape="rect" id="node3" href="$d3/d78/words__alphabetical_8c.html#af1f9b6eb320d872ba0766dc8bd070075" title="Closes file after read or write." alt="" coords="439,5,513,32"/>
+<area shape="rect" id="node3" href="$d3/d78/words__alphabetical_8c.html#af1f9b6eb320d872ba0766dc8bd070075" title="Closes the file after reading or writing." alt="" coords="439,5,513,32"/>
 <area shape="rect" id="node5" href="$d3/d78/words__alphabetical_8c.html#a840902ada0e956eb01b529be178748cc" title="Frees memory when program is terminating." alt="" coords="223,56,343,83"/>
 <area shape="rect" id="node6" href="$d3/d78/words__alphabetical_8c.html#a21df701de6ad940f6129b5b160e3e639" title="Reads words from file to tree." alt="" coords="203,107,363,133"/>
 <area shape="rect" id="node10" href="$d3/d78/words__alphabetical_8c.html#a22516c70583c9fa78e4edffb063836cc" title="Writes contents of tree to another file alphabetically." alt="" coords="196,157,369,184"/>

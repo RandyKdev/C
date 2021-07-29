@@ -82,7 +82,7 @@ var sectionId = 'dynsection-5';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#af1f9b6eb320d872ba0766dc8bd070075" target="_top" xlink:title="Closes file after read or write.">
+<g id="a_node3"><a xlink:href="../../d3/d78/words__alphabetical_8c.html#af1f9b6eb320d872ba0766dc8bd070075" target="_top" xlink:title="Closes the file after reading or writing.">
 <polygon fill="white" stroke="black" points="325,-114.5 325,-133.5 381,-133.5 381,-114.5 325,-114.5"/>
 <text text-anchor="middle" x="353" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">closeFile</text>
 </a>
