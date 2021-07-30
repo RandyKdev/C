@@ -1,5 +1,9 @@
 var NAVTREEINDEX3 =
 {
+"db/de2/naval__battle_8c.html#a59224afd73372b4f52415203e315f6e1":[15,0,5,0,1],
+"db/de2/naval__battle_8c.html#a5c84d83e31ca6a320b6ea8081402686a":[15,0,5,0,6],
+"db/de2/naval__battle_8c.html#a7c5042bd35c4186b06ae28f06635b40e":[15,0,5,0,11],
+"db/de2/naval__battle_8c.html#ab6e31f8df36de67ff967859069ccfc56":[15,0,5,0,0],
 "db/de2/naval__battle_8c.html#ad527fa96e729742a231c4535e112526a":[15,0,5,0,7],
 "db/de2/naval__battle_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[15,0,5,0,2],
 "dc/d18/structsudoku.html":[13,4,0],
@@ -157,8 +161,8 @@ var NAVTREEINDEX3 =
 "de/d7b/group__vec__3d.html#gaa6b5ac18429ffb0131dc8593d31c25a4":[15,0,6,2,7],
 "de/d7b/group__vec__3d.html#gae4a49e6bdf13df949e8b23c7925bb5f5":[15,0,6,2,9],
 "de/d7b/group__vec__3d.html#gae4a49e6bdf13df949e8b23c7925bb5f5":[13,0,5,9],
-"de/d7b/group__vec__3d.html#gaf9ee870d4922e488bdd3e7262485c270":[15,0,6,0,5],
 "de/d7b/group__vec__3d.html#gaf9ee870d4922e488bdd3e7262485c270":[13,0,5,1],
+"de/d7b/group__vec__3d.html#gaf9ee870d4922e488bdd3e7262485c270":[15,0,6,0,5],
 "de/dac/sudoku__solver_8c.html":[15,0,11,10],
 "de/dac/sudoku__solver_8c.html#ae1a3968e7947464bee7714f6d43b7002":[15,0,11,10,8],
 "de/dac/sudoku__solver_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[15,0,11,10,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX3 =
 "dir_475f56e0a4ef6254f5610544d8d68aa3.html":[15,0,4,4],
 "dir_48bf5503321d91c557399989fed5dabd.html":[15,0,4],
 "dir_4991c92e00761dd3d764efa2906b4318.html":[15,0,13,9],
-"dir_4a15c8553efb9e59e3f1091cc0d3a27d.html":[15,0,13,21],
-"dir_4b6f782e158b0b98da980a0e11a23a15.html":[15,0,5],
-"dir_4bae997a2671812c2140d5abfb6305a4.html":[15,0,13,20],
-"dir_607f15d36c772334f988bb9ef82d102c.html":[15,0,13,18],
-"dir_72aaf47615111200018c039a56ef48be.html":[15,0,9]
+"dir_4a15c8553efb9e59e3f1091cc0d3a27d.html":[15,0,13,21]
 };

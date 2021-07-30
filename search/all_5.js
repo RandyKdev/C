@@ -4,7 +4,7 @@ var searchData=
   ['data_85',['data',['../df/dea/structdata.html',1,'data'],['../d5/da1/structnode.html#a2d890bb9f6af0ffd73fe79b21124c2a2',1,'node::data()'],['../db/d8b/struct_node.html#a87c003c9f600e3fc58e6e90835f0b605',1,'Node::data()'],['../d8/db8/structkohonen__array__3d.html#ad546baa2e81c6196d5f1dc0fe2e5bd59',1,'kohonen_array_3d::data()']]],
   ['decimal_5fto_5fbinary_86',['decimal_to_binary',['../d8/d30/decimal__to__binary__recursion_8c.html#acbbe6358ec95b3201865a72b2ac522c8',1,'decimal_to_binary_recursion.c']]],
   ['decimal_5fto_5fbinary_5frecursion_2ec_87',['decimal_to_binary_recursion.c',['../d8/d30/decimal__to__binary__recursion_8c.html',1,'']]],
-  ['delete_88',['delete',['../da/d02/binary__search__tree_8c.html#a748f3966920e2fd197906be1e151b127',1,'delete(node *root, int data):&#160;binary_search_tree.c'],['../dd/d29/doubly__linked__list_8c.html#aa49167a68597f162e699b846fac0d446',1,'delete(List *list, int pos):&#160;doubly_linked_list.c']]],
+  ['delete_88',['delete',['../dd/d29/doubly__linked__list_8c.html#aa49167a68597f162e699b846fac0d446',1,'delete(List *list, int pos):&#160;doubly_linked_list.c'],['../da/d02/binary__search__tree_8c.html#a748f3966920e2fd197906be1e151b127',1,'delete(node *root, int data):&#160;binary_search_tree.c']]],
   ['delete_5fadaline_89',['delete_adaline',['../da/d2a/group__adaline.html#ga6f35caa3084772cc126ac7b20f67f665',1,'adaline_learning.c']]],
   ['delete_5fbt_90',['delete_bt',['../df/d3c/threaded__binary__trees_8c.html#a284d683f74b6c884e79ba00d3d1c3317',1,'threaded_binary_trees.c']]],
   ['delete_5fnumber_91',['delete_number',['../d6/d3d/factorial__large__number_8c.html#ab5c854e0df76165c31899e69eceeeaae',1,'factorial_large_number.c']]],
@@ -23,6 +23,7 @@ var searchData=
   ['dual_104',['dual',['../de/d58/structquaternion__.html#a596abbab688731119c1f23b26a7ac17a',1,'quaternion_::dual()'],['../d7/dfd/structdual__quat__.html#a1b05fbc4135e4f9b731423f26527543d',1,'dual_quat_::dual()']]],
   ['dual_5fquat_105',['dual_quat',['../d4/d69/group__dual__quats.html#ga27005601c47e5bb7aafe77659e76c88f',1,'geometry_datatypes.h']]],
   ['dual_5fquat_5f_106',['dual_quat_',['../d7/dfd/structdual__quat__.html',1,'']]],
-  ['durand_5fkerner_5froots_2ec_107',['durand_kerner_roots.c',['../da/d38/durand__kerner__roots_8c.html',1,'']]],
-  ['dynamic_5farray_108',['dynamic_array',['../d6/d42/structdynamic__array.html',1,'']]]
+  ['duplicatenumber_107',['duplicateNumber',['../d2/d9b/floyd__cycle__detection__algorithm_8c.html#ac7af29ae53c6659f2881fb080b080f9d',1,'floyd_cycle_detection_algorithm.c']]],
+  ['durand_5fkerner_5froots_2ec_108',['durand_kerner_roots.c',['../da/d38/durand__kerner__roots_8c.html',1,'']]],
+  ['dynamic_5farray_109',['dynamic_array',['../d6/d42/structdynamic__array.html',1,'']]]
 ];
